@@ -9,13 +9,21 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-native-community/checkbox": "^0.5.17",
+    "axios": "^1.7.8",
     "expo": "~52.0.11",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.3"
+    "react-native": "0.76.3",
+    "react-native-animatable": "^1.4.0",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-modal": "^13.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "babel-preset-expo": "^12.0.2",
+    "metro-react-native-babel-preset": "^0.77.0"
   },
   "private": true
 }
